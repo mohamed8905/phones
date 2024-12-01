@@ -2,10 +2,11 @@ public class App {
     public static void main(String[] args) {
         HashTable table = new HashTable(1009);
         
-        // System.out.println(HashTable.calc_hash("Sam Doe", 1009));
-        // System.out.println(HashTable.calc_hash("John Smith", 1009));
-        // System.out.println(HashTable.calc_hash("Lisa Smith", 1009));
+        System.out.println(HashTable.calc_hash("Sam Doe", 1009));
+        System.out.println(HashTable.calc_hash("John Smith", 1009));
+        System.out.println(HashTable.calc_hash("Lisa Smith", 1009));
 
+        System.out.println();
 
         table.Insert("Sam Doe", "+1-555-1234");
         table.Insert("Sam Doe", "+1-555-1234");

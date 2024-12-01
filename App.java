@@ -17,6 +17,6 @@ public class App {
         table.Search("Sam Doe");
         table.update("John Smith", "+1-555-9512");
         
-        // table.Display();
+        table.Display();
     }
 }
